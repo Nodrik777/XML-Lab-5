@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlBook2", "XmlBook2\XmlBook2.csproj", "{80FF0B17-BEE6-4840-96BA-30C0D5909944}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80FF0B17-BEE6-4840-96BA-30C0D5909944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FF0B17-BEE6-4840-96BA-30C0D5909944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FF0B17-BEE6-4840-96BA-30C0D5909944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FF0B17-BEE6-4840-96BA-30C0D5909944}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F4CE25A-48C8-495D-87AB-D33C7D4FFF74}
+	EndGlobalSection
+EndGlobal

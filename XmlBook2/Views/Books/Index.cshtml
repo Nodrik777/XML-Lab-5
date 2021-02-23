@@ -1,0 +1,28 @@
+﻿@model IEnumerable<XmlBook2.Models.Book>
+@{ ViewData["title"] = "Books";
+}
+
+
+<h2>Books</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => item.Id)</td>
+                <td>@Html.DisplayFor(m => item.FirstName)</td>
+                <td>@Html.DisplayFor(m => item.LastName)</td>
+                <td>@Html.DisplayFor(m => item.BookTitle)</td>
+            </tr>
+        }
+    </tbody>
+</table>
