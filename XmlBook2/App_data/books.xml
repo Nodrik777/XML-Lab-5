@@ -22,25 +22,8 @@
     </author>
   </book>
   <book>
-    <title>sdfs</title>
-    <author>
-      <firstname>sdds</firstname>
-      <lastname>dsds</lastname>
-      <middlename>dssdd</middlename>
-    </author>
-  </book>
-  <book>
-    <title>sdfs</title>
-    <author>
-      <firstname>sdds</firstname>
-      <lastname>dsds</lastname>
-      <middlename>dssdd</middlename>
-    </author>
-  </book>
-  <book>
     <title>Knight</title>
-    <id>
-    </id>
+    <id>3</id>
     <author>
       <firstname>Tom</firstname>
       <lastname>Jones</lastname>
@@ -48,19 +31,12 @@
     </author>
   </book>
   <book>
-    <title>Knight</title>
+    <title>Today's life</title>
+    <id>4</id>
     <author>
-      <firstname>Tom</firstname>
-      <lastname>Jones</lastname>
-      <middlename>Lee</middlename>
-    </author>
-  </book>
-  <book>
-    <title>Knight99</title>
-    <author>
-      <firstname>Tom</firstname>
-      <lastname>Jones</lastname>
-      <middlename>Lee</middlename>
+      <firstname>Joe</firstname>
+      <lastname>Mendez</lastname>
+      <middlename>Salvador</middlename>
     </author>
   </book>
 </books>

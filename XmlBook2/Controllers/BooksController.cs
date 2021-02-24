@@ -29,9 +29,21 @@ namespace XmlBook2.Controllers
 
                     
                     Book.BookTitle = b.GetElementsByTagName("title")[0].InnerText;
-                    //Book.Id = b.GetElementsByTagName("id")[0].InnerText;
                     Book.FirstName = b.GetElementsByTagName("firstname")[0].InnerText;
                     Book.LastName = b.GetElementsByTagName("lastname")[0].InnerText;
+                    Book.id = Int32.Parse(b.GetElementsByTagName("id")[0].InnerText);
+                    var test = b.GetElementsByTagName("middlename")[0];
+                    Book.MiddleName = "" ;
+                    if (test != null) 
+                    {
+                      Book.MiddleName = test.InnerText;
+                    } 
+
+          
+
+
+
+                   
 
                    
                     BookList.Add(Book);
@@ -86,8 +98,8 @@ namespace XmlBook2.Controllers
         private XmlElement _CreateBookElement(XmlDocument doc, Models.Book newBook)
         {
             XmlElement book = doc.CreateElement("book");
-            
-           
+
+
             XmlNode author = doc.CreateElement("author");
             XmlNode first = doc.CreateElement("firstname");
             first.InnerText = newBook.FirstName;
@@ -97,11 +109,22 @@ namespace XmlBook2.Controllers
             middle.InnerText = newBook.MiddleName;
             XmlNode title = doc.CreateElement("title");
             title.InnerText = newBook.BookTitle;
+            
+            XmlNode id = doc.CreateElement("id");
+            int id1 = doc.GetElementsByTagName("id").Count;
+            id.InnerText = (id1 + 1).ToString();
 
-         
+
+
+
+
+
+
 
             book.AppendChild(title);
-           
+
+            book.AppendChild(id);
+
 
 
 

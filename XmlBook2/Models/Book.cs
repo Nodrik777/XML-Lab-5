@@ -13,7 +13,7 @@ namespace XmlBook2.Models
         public string MiddleName { get; set; }
         public string LastName { get; set; }
 
-        public int Id { get; set; }
+        public int id { get; set; }
 
     }
 }

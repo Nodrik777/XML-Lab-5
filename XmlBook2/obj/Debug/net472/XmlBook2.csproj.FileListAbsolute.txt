@@ -1,0 +1,12 @@
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.csprojAssemblyReference.cache
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.exe.config
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.AssemblyInfoInputs.cache
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.AssemblyInfo.cs
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.csproj.CoreCompileInputs.cache
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.RazorAssemblyInfo.cache
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.RazorAssemblyInfo.cs
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.TagHelpers.input.cache
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.exe
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.pdb
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.TagHelpers.output.cache
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net472\XmlBook2.RazorCoreGenerate.cache

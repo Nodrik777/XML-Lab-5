@@ -2,6 +2,9 @@
 @{ ViewData["title"] = "Books";
 }
 
+@{ ViewData["title"] = "Create";
+}
+
 
 <h2>Books</h2>
 
@@ -10,6 +13,7 @@
         <tr>
             <th>ID</th>
             <th>First name</th>
+            <th>Middle name</th>
             <th>Last name</th>
             <th>Title</th>
         </tr>
@@ -18,8 +22,9 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@Html.DisplayFor(m => item.Id)</td>
+                <td>@Html.DisplayFor(m => item.id)</td>
                 <td>@Html.DisplayFor(m => item.FirstName)</td>
+                <td>@Html.DisplayFor(m => item.MiddleName)</td>
                 <td>@Html.DisplayFor(m => item.LastName)</td>
                 <td>@Html.DisplayFor(m => item.BookTitle)</td>
             </tr>

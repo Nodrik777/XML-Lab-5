@@ -195,3 +195,4 @@ C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\bin\Debug\net471\Remotion.Linq.dl
 C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\bin\Debug\net471\System.Data.SqlClient.dll
 C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\bin\Debug\net471\System.Interactive.Async.dll
 C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net471\Razor\Views\Books\Create.cshtml.g.cs
+C:\Users\Nodrik\source\repos\XmlBook2\XmlBook2\obj\Debug\net471\XmlBook2.GeneratedMSBuildEditorConfig.editorconfig
